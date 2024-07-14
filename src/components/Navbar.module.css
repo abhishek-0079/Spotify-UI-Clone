@@ -1,0 +1,68 @@
+.navbar{
+    background-color: #1d1c1c;
+    width: 100%;
+    height: 9vh;
+   display: flex;
+   justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+   
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    color: rgb(150, 142, 142);
+   
+   
+
+}
+
+.leftArrow ,.rightArrow{
+    background-color: black;
+    border-radius: 1rem;
+
+    
+}
+.leftArrow:hover ,.rightArrow:hover{
+    color: white;
+}
+.leftArrow{
+    margin-right: 8px;
+}
+.register{
+   display: flex;
+   font-weight: bold;
+   align-items: center;
+   cursor: pointer;
+   
+  
+ 
+   
+   
+   
+   
+}
+
+.signUp:hover{
+    transform: scale(1.07);
+    transition: .2s ease-out 0s;
+   
+}
+
+.btn{
+    background-color: white;
+    border: none;
+    margin-left: 20px;
+    border-radius: 1.5rem;
+    padding: 10px 20px;
+    font-weight: bold;
+
+
+
+}
+.btn:hover{
+    transform: scale(1.07);
+    transition: .2s ease-out 0s;
+
+}

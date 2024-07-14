@@ -1,0 +1,94 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    
+}
+.link1{
+    display: flex;
+    flex-direction: column;
+}
+.firstLink{
+    font-weight: bold;
+    font-size: 15px;
+}
+.subLinks{
+    font-size: 15px;
+    line-height: 26px;
+    color: rgb(150, 142, 142);
+}
+.subLinks:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+.socialMediaLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    width:9vw;
+  margin-right: 50px;
+
+    
+
+}
+.socialLink
+{
+   height: 40px; 
+   width:40px;
+   margin-left: 10px;
+   margin-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #222222;
+    border-radius: 10rem;
+
+   
+    
+}
+.socialLink:hover{
+    background-color: grey;
+
+}
+
+.copyright{
+    display: flex;
+    
+    height: 12px;
+    width: 140px;
+    align-items: center;
+    color: rgb(150, 142, 142);
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+   
+   
+
+}
+.text{
+    font-size: 14px;
+    padding-left: 5px;
+}
+.hr{
+    width:auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.copyrightMsg{
+    font-size: 11px;
+    line-height: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(150, 142, 142);
+
+
+}
+

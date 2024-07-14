@@ -1,0 +1,93 @@
+.heading{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 35px;
+
+}
+.heading p{
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(150, 142, 142);
+
+}
+.heading h5{
+    font-weight: bold;
+    font-size: 22px;
+    
+}
+.heading h5:hover,.heading p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.image{
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    border-radius: 6rem;
+    z-index: 0;
+    position: relative;
+    display: block;
+}
+.card1{
+    position: relative;
+    margin-left: 8px;
+    border-radius: 0.4rem;
+    padding-top: 10px;
+    padding-left: 11px;
+    padding-right: 5px;
+    width: 12vw;
+    height: 31vh;
+    cursor: pointer;
+}
+.playButton{
+    background-color: #1db954;
+    height: 7.5vmin;
+    width: 7.5vmin;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 75%; 
+    padding-top: 12px;
+    padding-left: 4px;
+    transform: translate(-50%, -50%);
+    border-radius: 6rem;
+    z-index: 1;
+    opacity: 0;
+   
+   
+   
+    
+}
+
+
+
+.card1:hover .playButton{
+    transition: ease-in-out 0.3s;
+    opacity: 1;
+}
+.card1:hover{
+    background-color: #1d1c1c;
+    
+}
+.artistName{
+    font-size: 15px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    
+}
+.tag{
+    font-size: 14px;
+    padding-top: 5px;
+    color: rgb(150, 142, 142);
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    position: relative;
+   
+    
+}
